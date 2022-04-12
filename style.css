@@ -81,7 +81,7 @@ h1, h2 {
 .features {
   padding-top: 50px;
   display: grid;
-  grid-template-columns: 430px 430px 430px;
+  grid-template-columns: 33% 33% 33%;
   font-size: 20px;
   text-align: center;
   font-family: "Lucida Handwriting", cursive;
@@ -100,7 +100,7 @@ body {
   margin-left: 60px;
   padding-top: 40px;
   display: grid;
-  grid-template-columns: 400px 430px 400px;
+  grid-template-columns: 33% 33% 33%;
   justify-content: space-around;
 }
 .grid-item {
@@ -284,10 +284,10 @@ footer {
     font-size: 15px;
   }
   .feature-text {
-    margin-left: 40px;
-    padding-top: 10px;
+    padding: 20px;
     text-align: center;
-    width: 75%;
+    width: 100%;
+    margin-left: auto;
   }
   .feature-pic {
     height: 100px;
@@ -296,7 +296,7 @@ footer {
     margin-left: auto;
     padding-top: 20px;
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 45% 45%;
     height: auto;
   }
   #menu {
@@ -324,6 +324,7 @@ footer {
   }
   header .nav-link:hover {
     font-size: 8px;
+    margin: 0;
   }
   .logo-pic {
     height: 15px;
@@ -347,9 +348,13 @@ footer {
     padding-top: 10px;
     display: flex;
     font-size: 10px;
+    flex-direction: column;
   }
   .feature-text {
-    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
   }
   .feature-pic {
     height: 50px;
@@ -359,12 +364,12 @@ footer {
     padding-top: 10px;
     display: grid;
     height: auto;
-    grid-template-columns: 180px 180px;
+    grid-template-columns: 100%;
   }
   .dishes-pic {
-    margin: 21px auto 0;
-    width: 140px;
-    height: 90px;
+    margin: 20px auto 0;
+    width: 200px;
+    height: 110px;
     border-radius: 30px;
     border: 1px solid #f79400a4;
   }
@@ -372,10 +377,10 @@ footer {
     height: auto;
   }
   .grid-item {
-    width: 160px;
-    margin: 10px;
+    margin: 10px auto;
     height: 160px;
     font-size: 12px;
+    border-radius: 40px;
   }
   #ready-to-order {
     height: auto;
